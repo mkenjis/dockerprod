@@ -57,7 +57,7 @@
       chdir: /home/ec2-user/dockerprod
 
   - name: rebuild
-    command: docker image build -t mynode-img .
+    command: docker image build -t mynode_img .
     args:
       chdir: /home/ec2-user/dockerprod
       
