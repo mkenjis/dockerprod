@@ -60,3 +60,8 @@
     command: docker image build -t mynode-img .
     args:
       chdir: /home/ec2-user/dockerprod
+      
+  - name: compose up
+    command: docker-compose up
+    args:
+      chdir: /home/ec2-user/dockerprod
